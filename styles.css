@@ -7,6 +7,7 @@ body {
 }
 
 .postinstagram {
+    margin-top: 20px;
     height: 400px;
     width: 400px;
     align-items: center;
@@ -15,24 +16,39 @@ body {
 
 .heading {
     background: white;
-    align-items: center;
+    position: relative;
+    height: 35px;
+    width: 400px;
+
 }
+
 .title__heading {
+    position: absolute;
+    left: 7%;
+    top: 15%;
+}
+
+.title__heading h6 {
     background: white;
     margin: 0px;
     padding: 0px;
 }
+
 .icon_right {
-    float: right;
+    position: absolute;
+    right: 0%;
+    top: 15%;
 }
+
 .icon_left {
-    float: left;
+    position: absolute;
+    left: 2.5%;
+    top: 15%;
 }
 
 .img {
     width: 400px;
     height: 400px;
-    background: red;
 }
 
 .likes {
