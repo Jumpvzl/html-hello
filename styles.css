@@ -8,7 +8,6 @@ body {
 
 .postinstagram {
     margin-top: 20px;
-    height: 400px;
     width: 400px;
     align-items: center;
     justify-content: center;
@@ -43,7 +42,7 @@ body {
 
 .icon_left {
     position: absolute;
-    left: 2.5%;
+    left: 2%;
     top: 15%;
 }
 
@@ -57,6 +56,15 @@ body {
     justify-content: space-between;
     background: white;
     padding-top: 5px;
+    margin-left: 8px;
+}
+
+.icons-group {
+    width: 75px;
+}
+
+.icons-group > i {
+    margin-right: 1%;
 }
 
 i {
@@ -68,6 +76,12 @@ i {
 
 .footer {
     background: white;
+    padding-bottom: 5%;
+
+}
+
+#bookmark {
+    margin-right: 6px;
 }
 
 p {
@@ -76,4 +90,5 @@ p {
     padding-left: 5px;
     padding-right: 10px;
     text-align: justify;
+    margin-left: 8px;
 }
